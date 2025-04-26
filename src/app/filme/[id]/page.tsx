@@ -71,7 +71,7 @@ export default async function MoviePage({ params }: { params: { id: string } }) 
           ></iframe>
         </div>
       ) : (
-        <p className="text-center">Trailer não disponível.</p>
+        <p className="text-center">Trailer indisponível.</p>
       )}
     </div>
   );
